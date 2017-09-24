@@ -14,7 +14,7 @@ ll byg(ll n)
 {
     //checking whether it is already calculated or not
 	
-    if(n != 0 && lookup[n] == 0)          //if mot calculated enters the loop   
+    if(n != 0 && lookup[n] == 0)          //if not calculated enters the block   
     {                                     
         ll x = byg(n/2)+byg(n/3)+byg(n/4);
         if(n > x)
