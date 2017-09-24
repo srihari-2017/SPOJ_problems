@@ -1,6 +1,7 @@
 // Problem : COINS - Bytelandian gold coins
 // author : srihari vasupalli
 // college : JNTU KAKINADA
+// language : C++
 
 #include<iostream>
 #include<cstdio>
